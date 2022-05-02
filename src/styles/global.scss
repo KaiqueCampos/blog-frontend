@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #121212;
+    --secondary-color: #1e1e22;
+
+    --font: #fff;
+    --font-purple: #9F65E9;
+    --input-light-pink: #D9D2ED;
+    --shadow-title: #20202799;
+    
+    --gradient-pink-to-purple: linear-gradient(90.01deg, #F504FD 0.01%, #653DD7 103.69%);
+
+    --green: #6FCF97;
+}
+
+html {
+    font-size: 97.5%;
+}
+
+@media (max-width: 1500px) {
+    html{
+        font-size : 80%;
+    }
+}
+
+body{
+    background: var(--primary-color);
+}
+
+p {
+    font: 400 1rem "Roboto", sans-serif;
+    color: var(--font)
+}
+
+
